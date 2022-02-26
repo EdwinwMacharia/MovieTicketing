@@ -24,6 +24,9 @@ namespace MovieTicketing.Models
         public int CinameId { get; set; }
         [ForeignKey("CinemaId")]
         public Cinema Cinema { get; set; }
-   
+        public int ProducerId { get; set; }
+        [ForeignKey("ProducerId")]
+        public Producer Producer { get; set; }
+       
     }
 }
