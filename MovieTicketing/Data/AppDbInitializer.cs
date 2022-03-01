@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using MovieTicketing.Models;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace MovieTicketing.Data
@@ -16,7 +18,7 @@ namespace MovieTicketing.Data
 
                 if(!context.Cinemas.Any())
                 {
-                    context.Cinemas.AddRange();
+                   
                 }
 
                 if (!context.Actors.Any())
