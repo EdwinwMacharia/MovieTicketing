@@ -16,7 +16,7 @@ namespace MovieTicketing.Data
 
                 if(!context.Cinemas.Any())
                 {
-
+                    context.Cinemas.AddRange();
                 }
 
                 if (!context.Actors.Any())
