@@ -11,6 +11,9 @@ namespace MovieTicketing.Data
         Drama,
         Documentaries,
         War,
+        Cartoon,
+        Horror
+       
 
     }
 }
